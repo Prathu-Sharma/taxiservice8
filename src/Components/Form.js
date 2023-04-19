@@ -1,36 +1,37 @@
 import React from 'react'
 import Button from './Button'
+import "./Form.css"
 
 const Form = () => {
   return (
     <div className='booking_section'>
       <div className="container">
         <div className="booking-form">
-            <h2>Book your Ride</h2>
+            <h2 className='form-title'>Book your Ride</h2>
             <form action="#">
                 <div className="form-row">
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="pickUp">Pick Up Location</label>
-                            <input type="text" placeholder='Type Location'/>
+                            <input className='form-control' type="text" placeholder='Type Location'/>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="pickUp">Pick Up Location</label>
-                            <input type="text" placeholder='Type Location'/>
+                            <input className='form-control' type="text" placeholder='Type Location'/>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="dropLocation">Drop Off Location</label>
-                            <input type="text" placeholder='Type Location'/>
+                            <input className='form-control' type="text" placeholder='Type Location'/>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="passengers">Passengers</label>
-                            <input type="text" placeholder='Passengers'/>
+                            <input className='form-control' type="text" placeholder='Passengers'/>
                         </div>
                     </div>
                     <div className="col-lg-3">
@@ -47,17 +48,17 @@ const Form = () => {
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="pickUpDate">Pick Up Date</label>
-                            <input type="date" placeholder='MM|DD|YYYY'/>
+                            <input className='form-control' type="date" placeholder='MM|DD|YYYY'/>
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="pickUpDate">Pick Up Time</label>
-                            <input type="time" placeholder='00:00 AM'/>
+                            <input className='form-control' type="time" placeholder='00:00 AM'/>
                         </div>
                     </div>
-                    <div className="col-log">
-                        <Button />
+                    <div className="col-lg-3">
+                        <Button styling='pos-btn'/>
                     </div>
                 </div>
             </form>
