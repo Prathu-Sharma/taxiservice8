@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './Components/Form';
 import Header from './Components/Header';
 import Banner from './Components/Banner';
 
@@ -8,11 +9,10 @@ function App() {
 
   <Header/>
   <Banner/>
+  <Form />
   
-</>
- 
-
-);
+      </>
+  );
 }
 
 export default App;
