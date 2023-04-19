@@ -1,10 +1,13 @@
 import React from 'react';
 import "./Button.css";
 
-function Button() {
+function Button(props) {
+
   return (
-<button className="btn">Book a Taxi</button>
-  );
+
+<button className="btn">{props.names}</button>
+
+);
 }
 
 export default Button;

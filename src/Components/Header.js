@@ -17,7 +17,7 @@ return(
         </nav>
     
     <div>
-    <Button/>
+    <Button names="Book A Taxi"/>
     </div>
      
 </div>

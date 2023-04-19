@@ -57,7 +57,7 @@ const Form = () => {
                         </div>
                     </div>
                     <div className="col-log">
-                        <Button />
+                        <Button names="Submit"/>
                     </div>
                 </div>
             </form>
