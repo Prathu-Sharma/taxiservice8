@@ -4,19 +4,17 @@ import AboutBtn from './AboutBtn';
 
 function Banner() {
   
-    return
-     (
+    return(
      <>
-       <div>
-         
-         <h3>Welcome to Radhika tour and travels !</h3>
-         <h1>Book Taxi for your ride</h1>
-          
-          <div>
-         <Button/>
-         <AboutBtn/>
+     <div className="banner-section">
+          <h3>Welcome to Radhika tour and travels !</h3>
+          <h1>Book Taxi for your ride</h1>
+          <div className='btn-section'>
+            <Button/>
+            <AboutBtn/>
          </div>
-       </div>
+     </div>
+         
     </>
     );
 
