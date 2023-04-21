@@ -57,13 +57,8 @@ const Form = () => {
                             <input className='form-control' type="time" placeholder='00:00 AM'/>
                         </div>
                     </div>
-<<<<<<< HEAD
-                    <div className="col-log">
-                        <Button names="Submit"/>
-=======
                     <div className="col-lg-3">
-                        <Button styling='pos-btn'/>
->>>>>>> 17dc60656630d6d0eb9f66e948f873cbc5fdc596
+                        <Button styling='pos-btn' names='Submit'/>
                     </div>
                 </div>
             </form>
