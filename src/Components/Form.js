@@ -13,7 +13,7 @@ const Form = () => {
                     <div className="col-lg-3">
                         <div className="form-tab">
                             <label htmlFor="pickUp">Pick Up Location</label>
-                            <input className='form-control' type="text" placeholder='Type Location'/>
+                            <input className='form-control field1' type="text" placeholder='Type Location'/>
                         </div>
                     </div>
                     <div className="col-lg-3">

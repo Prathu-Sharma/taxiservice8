@@ -6,9 +6,9 @@
 }
 .booking-form{
     padding:30px;
-    border-radius:30px;
-    background-color:#5454;
-    box-shadow : #545454;
+    border-radius:20px;
+    background-color:#ffffff;
+    box-shadow : 0 0 40px 5px rgb(0 0 0 / 5%);
 }
 .form-title{
     font-size:30px;
@@ -62,3 +62,7 @@ select#cab_type {
     bottom: 11%;
     left: 6%;
 }
+.booking_section{position: relative;
+    margin-top: -70px;
+
+                    }
