@@ -2,6 +2,7 @@ import './App.css';
 import Form from './Components/Form';
 import Header from './Components/Header';
 import Banner from './Components/Banner';
+import Carsection from './Components/Carsection';
 
 function App() {
   return(
@@ -10,6 +11,7 @@ function App() {
   <Header/>
   <Banner/>
   <Form />
+  <Carsection/>
   
       </>
   );
