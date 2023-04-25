@@ -3,6 +3,7 @@ import Form from './Components/Form';
 import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Carsection from './Components/Carsection';
+import Footer from './Components/Footer';
 
 function App() {
   return(
@@ -12,7 +13,7 @@ function App() {
   <Banner/>
   <Form />
   <Carsection/>
-  
+  <Footer />
       </>
   );
 }
