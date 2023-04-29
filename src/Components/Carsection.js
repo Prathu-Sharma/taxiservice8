@@ -19,7 +19,7 @@ export default function Carsection() {
 
 <div>
 <div className='ownerimg'><img src={coowner} alt="working"></img></div>
-<p style={{color:"#FFB300",fontSize:"16px",fontWeight:"bold"}}>Ajun Sharma (Co-owner)</p>
+<p style={{color:"#FFB300",fontSize:"16px",fontWeight:"bold"}}>Arjun Sharma (Co-owner)</p>
 </div>
 
 </div>
