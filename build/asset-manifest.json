@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.41e35dbd.css",
-    "main.js": "/static/js/main.5d769516.js",
-    "static/media/amitsharma.jpg": "/static/media/amitsharma.ac8e4af9742e87cda997.jpg",
-    "static/media/carImage.png": "/static/media/carImage.20bd6b8ee55978ba4103.png",
-    "static/media/slider-3.jpg": "/static/media/slider-3.e49bca0b3b33db1e86cd.jpg",
-    "static/media/arjunsharma.jpg": "/static/media/arjunsharma.8b841fdc4772e8d3a27a.jpg",
-    "index.html": "/index.html",
-    "main.41e35dbd.css.map": "/static/css/main.41e35dbd.css.map",
-    "main.5d769516.js.map": "/static/js/main.5d769516.js.map"
+    "main.css": "./static/css/main.86d06f77.css",
+    "main.js": "./static/js/main.7ea507c6.js",
+    "static/media/amitsharma.jpg": "./static/media/amitsharma.ac8e4af9742e87cda997.jpg",
+    "static/media/carImage.png": "./static/media/carImage.20bd6b8ee55978ba4103.png",
+    "static/media/slider-3.jpg": "./static/media/slider-3.e49bca0b3b33db1e86cd.jpg",
+    "static/media/arjunsharma.jpg": "./static/media/arjunsharma.8b841fdc4772e8d3a27a.jpg",
+    "index.html": "./index.html",
+    "main.86d06f77.css.map": "./static/css/main.86d06f77.css.map",
+    "main.7ea507c6.js.map": "./static/js/main.7ea507c6.js.map"
   },
   "entrypoints": [
-    "static/css/main.41e35dbd.css",
-    "static/js/main.5d769516.js"
+    "static/css/main.86d06f77.css",
+    "static/js/main.7ea507c6.js"
   ]
 }
