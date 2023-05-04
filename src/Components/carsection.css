@@ -1,4 +1,48 @@
-*{
+@media(min-width:1200px)
+{*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.Heading3{
+    color:#FFB300;
+    font-size:40px;
+}
+.Heading4
+{
+    font-size:45px;
+}
+.carsection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.owners{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px 0px;
+    margin:10px 30px;
+}   
+.ownerimg
+{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin:15px 0px; 
+}
+.ownerimg img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    
+}
+.intro{
+    margin: 25px 0px;
+}}
+
+@media(min-width:992px) and (max-width:1199px)
+{*{
     margin:0px;
     padding:0px;
     box-sizing:border-box;
@@ -30,4 +74,134 @@
 }
 .intro{
     margin: 25px 0px;
+}}
+@media(min-width:745px) and (max-width:991px)
+{*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.carsection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.owners{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px 0px;
+    margin:10px 30px;
+}   
+.ownerimg
+{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin:15px 0px; 
+}
+.ownerimg img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    
+}
+.intro{
+    margin: 25px 0px;
+}}
+@media(min-width:576px) and (max-width:744px)
+{*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.carsection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.owners{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:40px 0px;
+    margin:10px 30px;
+}   
+.ownerimg
+{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin:15px 0px; 
+}
+.ownerimg img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    
+}
+.intro{
+    margin: 25px 0px;
+}}
+@media(max-width:575px){*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.carsection{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+.Heading3{
+    color:#FFB300;
+    font-size:30px;
+}
+.Heading4
+{
+    text-align: center;
+    font-size:35px;
+}
+.owners{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px 0px;
+    margin: 0px 20px;
+}   
+.ownerimg
+{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    margin:15px 0px; 
+}
+.ownerimg img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    
+}
+.p1{
+    width:100%;
+}
+.p1 img{
+ width:100%;
+}
+.p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.intro{
+    margin: 25px 0px;
+}
+.intro p{
+    color:#757F95;
+    font-size:16px;
+    font-weight:400;
+    text-align: center;   
+}
 }

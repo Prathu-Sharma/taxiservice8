@@ -11,9 +11,9 @@ const Footer = () => {
                 <div className='logo'>RADHIKA<span>TRAVELS</span></div>
                 <p className='logo_para'>We are many variations of passages available but the majority have suffered alteration in some form by injected humour words believable.</p>
                 <div className="social_links">
-                    <div className="contact_num"><i className="fa-solid fa-phone"></i>Contact Number</div>
-                    <div className="location"><i className="fa-solid fa-location-dot"></i>Location</div>
-                    <div className="email_id"><i className="fa-solid fa-envelope"></i>Email@email.com</div>
+                    <div className="contact_num"><i className="fa-solid fa-phone"></i>8755553252</div>
+                    <div className="location"><i className="fa-solid fa-location-dot"></i>Rishikesh</div>
+                    <div className="email_id"><i className="fa-solid fa-envelope"></i>arjunsharma991110@gmail.com</div>
                 </div>
             </div>
             <div className="footer_links">

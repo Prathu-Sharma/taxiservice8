@@ -32,3 +32,38 @@ nav {
         font-size:20px;
         color:#ffb300;
     }
+
+    
+    @media(max-width:575px){*
+{
+    padding : 0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.header-symbol
+{
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.header-main
+{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#5454;
+    padding:10px 0px; 
+}
+nav {
+    display: none;
+    min-width : 45%;
+}
+    nav a{
+        font-weight:600;
+        font-size:17px;
+    }
+    
+    .symbol{
+        font-size:20px;
+        color:#ffb300;
+    }
+}

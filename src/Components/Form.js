@@ -58,7 +58,10 @@ const Form = () => {
                         </div>
                     </div>
                     <div className="col-lg-3">
-                        <Button styling='pos-btn' names='Submit'/>
+                    <div className="form-tab">
+                    <Button styling='pos-btn' names='Submit'/>
+                    </div>
+                       
                     </div>
                 </div>
             </form>
