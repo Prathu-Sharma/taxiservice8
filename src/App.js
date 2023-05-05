@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Carsection from './Components/Carsection';
 import Footer from './Components/Footer';
+import Places from './Components/Places';
 
 function App() {
   return(
@@ -13,7 +14,9 @@ function App() {
   <Banner/>
   <Form />
   <Carsection/>
+  <Places/>
   <Footer />
+
       </>
   );
 }
