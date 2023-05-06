@@ -7,7 +7,8 @@
 .maincard
 {
  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
- width: 300px;   
+ width: 250px;  
+ padding-bottom:10px; 
 }
 .imgebox{
     width:100%;
@@ -16,11 +17,37 @@
 .head1{
     color:#ffb300;
     font-weight: bold;
-    padding-left: 5px;
+    text-align: center;
+    padding: 5px 0px;
 }
-ul{
+.maincard ul{
     list-style-type: none;
     padding-left: 5px;
+    position: relative;
+    cursor:pointer;
+    font-weight: 400;
+}
+.maincard ul::after
+{
+    content: "";
+    width: 3px;
+    height: 100%;
+    display: block;
+    background-color: #ffb300;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    transition: height 0.1s;
+}
+.maincard ul:hover::after 
+{
+     
+       height: 20%;
+    
+}
+ul li{
+padding:2px;
+
 }
 @media(max-width:575px)
 {
